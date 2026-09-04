@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 620" fill="none">
+<defs>
+  <linearGradient id="sky" x1="800" y1="0" x2="800" y2="620" gradientUnits="userSpaceOnUse"><stop stop-color="#071A3A"/><stop offset=".48" stop-color="#173D69"/><stop offset="1" stop-color="#E8B45A"/></linearGradient>
+  <linearGradient id="road" x1="0" y1="520" x2="1600" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#071A3A"/><stop offset="1" stop-color="#102E50"/></linearGradient>
+  <linearGradient id="bus" x1="230" y1="300" x2="680" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#fff"/><stop offset=".75" stop-color="#E8EDF4"/><stop offset="1" stop-color="#C8D2DF"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="25"/></filter>
+</defs>
+<rect width="1600" height="620" fill="url(#sky)"/>
+<circle cx="1280" cy="190" r="90" fill="#FFE6A7" opacity=".28" filter="url(#glow)"/>
+<circle cx="1280" cy="190" r="48" fill="#FFE9B5" opacity=".9"/>
+<path d="M0 365 210 245 390 340 570 210 760 355 980 225 1190 350 1410 245 1600 345V620H0V365Z" fill="#102D4E" opacity=".9"/>
+<path d="M0 425 260 315 430 390 620 300 850 405 1060 320 1260 405 1460 330 1600 390V620H0V425Z" fill="#071B36" opacity=".92"/>
+<path d="M0 485C330 440 560 530 850 475C1110 425 1370 430 1600 470V620H0V485Z" fill="url(#road)"/>
+<path d="M0 535C340 480 590 575 900 515C1190 460 1400 470 1600 510" stroke="#D9A441" stroke-width="8" stroke-linecap="round" opacity=".9"/>
+<path d="M860 600C1120 525 1340 520 1600 555" stroke="#FFF" stroke-width="5" stroke-dasharray="34 28" opacity=".55"/>
+<!-- stylized coach -->
+<g transform="translate(145 195)">
+  <path d="M40 245V110C40 54 82 20 140 20H485C540 20 575 54 590 108L635 250H40Z" fill="url(#bus)" stroke="#0B2343" stroke-width="8"/>
+  <path d="M88 55H470C505 55 528 76 539 112L551 150H88V55Z" fill="#17324E"/>
+  <path d="M102 68H188V136H102V68ZM202 68H288V136H202V68ZM302 68H388V136H302V68ZM402 68H475C496 68 508 81 514 100L524 136H402V68Z" fill="#9DB7C9" opacity=".85"/>
+  <path d="M77 173H545" stroke="#C99A3B" stroke-width="8"/>
+  <path d="M112 193H270" stroke="#0B2343" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="152" cy="257" r="46" fill="#081A32" stroke="#E2B14E" stroke-width="9"/><circle cx="152" cy="257" r="20" fill="#718096"/>
+  <circle cx="512" cy="257" r="46" fill="#081A32" stroke="#E2B14E" stroke-width="9"/><circle cx="512" cy="257" r="20" fill="#718096"/>
+  <rect x="548" y="165" width="32" height="22" rx="7" fill="#F7D98E"/>
+  <path d="M335 178c55-30 100-30 155 0" stroke="#C99A3B" stroke-width="5"/>
+  <text x="335" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#0B2343">خطوط زحل</text>
+</g>
+<!-- subtle Saturn -->
+<g opacity=".7"><ellipse cx="1420" cy="90" rx="82" ry="25" stroke="#DDB15C" stroke-width="7" transform="rotate(-14 1420 90)"/><circle cx="1420" cy="90" r="38" fill="#DDB15C"/></g>
+</svg>
